@@ -1,4 +1,12 @@
-INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES(1, '2020-06-14 00:00:00', '2020-12-31 23:59:59', 1, 35455, 0, 35.50, 'EUR');
-INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES(1, '2020-06-14 15:00:00', '2020-06-14 18:30:00', 2, 35455, 1, 25.45, 'EUR');
-INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES(1, '2020-06-15 00:00:00', '2020-06-15 11:00:00', 3, 35455, 1, 30.50, 'EUR');
-INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES(1, '2020-06-15 16:00:00', '2020-06-15 23:59:59', 4, 35455, 1, 38.95, 'EUR');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Andrés', 'Guzmán', 'profesor@bolsadeideas.com', '2018-01-01', '2018-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Mr. John', 'Doe', 'john.doe@gmail.com', '2018-01-02', '2018-01-02');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2018-01-03', '2018-01-03');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Rasmus', 'Lerdorf', 'rasmus.lerdorf@gmail.com', '2018-01-04', '2018-01-04');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Erich', 'Gamma', 'erich.gamma@gmail.com', '2018-02-01', '2018-01-05');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Richard', 'Helm', 'richard.helm@gmail.com', '2018-02-10', '2018-01-06');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Ralph', 'Johnson', 'ralph.johnson@gmail.com', '2018-02-18', '2018-01-07');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('John', 'Vlissides', 'john.vlissides@gmail.com', '2018-02-28', '2018-01-08');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03', '2018-01-09');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Magma', 'Lee', 'magma.lee@gmail.com', '2018-03-04', '2018-01-10');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05', '2018-01-11');
+INSERT INTO clientes (nombre, apellido, email, create_at, fecha_nac) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06', '2018-01-12');
